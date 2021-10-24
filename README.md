@@ -13,3 +13,6 @@ To run this open the Runner file and run TestRunner
 <img width="1776" alt="Screenshot 2021-10-24 at 18 44 12" src="https://user-images.githubusercontent.com/34009503/138606276-04aaa2df-8ce1-4752-9898-2139d10ab2db.png">
 <img width="1465" alt="Screenshot 2021-10-24 at 18 44 48" src="https://user-images.githubusercontent.com/34009503/138606282-3f934a09-9d02-4b5f-a4e5-5bf85b7dc448.png">
 <img width="1730" alt="Screenshot 2021-10-24 at 18 45 27" src="https://user-images.githubusercontent.com/34009503/138606283-40a9e835-5c40-4b03-bd5d-10d4d08dc54e.png">
+
+
+OnGoing issues - Sometimes it hits "HTTP Status: '404' -> incorrect JSON status mapping for 'stale element reference' (400 expected)" and there is a bug logged on geckoDriver . If you face this issue ,  probably rerun for the execution to take place 
