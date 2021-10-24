@@ -1,4 +1,8 @@
 # QualitestRavi
+About the test covered -User adds 4 products to wishlist and out of those 4 products which ever is having minimum price  gets added to cart and gets verified on Product Page 
+
+		
+	
 
 To use this Repo you need to clone or download this .
 To clone use https://github.com/AutomationKing/QualitestRavi.git
@@ -15,7 +19,7 @@ To run this open the Runner file and run TestRunner
 <img width="1730" alt="Screenshot 2021-10-24 at 18 45 27" src="https://user-images.githubusercontent.com/34009503/138606283-40a9e835-5c40-4b03-bd5d-10d4d08dc54e.png">
 
 
-OnGoing issues - Sometimes it hits "HTTP Status: '404' -> incorrect JSON status mapping for 'stale element reference' (400 expected)" and there is a bug logged on geckoDriver . If you face this issue ,  probably rerun for the execution to take place 
+OnGoing issues - Sometimes it hits "HTTP Status: '404' -> incorrect JSON status mapping for 'stale element reference' (400 expected)"  . If you face this issue ,  probably rerun for the execution to take place and the tests will work 
 
 Solution
 Upgrade JDK to recent levels JDK 8u191.
