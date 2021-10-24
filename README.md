@@ -16,3 +16,16 @@ To run this open the Runner file and run TestRunner
 
 
 OnGoing issues - Sometimes it hits "HTTP Status: '404' -> incorrect JSON status mapping for 'stale element reference' (400 expected)" and there is a bug logged on geckoDriver . If you face this issue ,  probably rerun for the execution to take place 
+
+Solution
+Upgrade JDK to recent levels JDK 8u191.
+Upgrade Selenium to current levels Version 3.14.0.
+Upgrade GeckoDriver to GeckoDriver v0.23.0 level.
+GeckoDriver is present in the specified location.
+GeckoDriver is having executable permission for non-root users.
+Upgrade Firefox version to Firefox vv63.0.1 levels.
+Clean your Project Workspace through your IDE and Rebuild your project with required dependencies only.
+If your base Web Client version is too old, then uninstall it through Revo Uninstaller and install a recent GA and released version of Web Client.
+Take a System Reboot.
+Execute your Test as a non-root user.
+Always invoke driver.quit() within tearDown(){} method to close & destroy the WebDriver and Web Client instances gracefully
